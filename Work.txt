@@ -1,0 +1,40 @@
+QPause Quantum Resistant Password Protected Data Outsourcing for Cloud Storage
+
+
+qpause
+
+
+
+IEEE Transactions on Services Computing,Volume:17,Issue:3,Issue Date: May-June.2024
+
+
+Members
+------
+
+Fid	
+Technology_Title	
+Technology_Desc	
+DateTime
+Secret_Key
+Hashcode
+
+
+
+Database
+-------
+
+
+
+
+CREATE TABLE `datasets` (
+  `id` int(11) NOT NULL auto_increment,
+  fid text,
+tt text,
+td text,
+dt text,
+sk text,
+hc text,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
